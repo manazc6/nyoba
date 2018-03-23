@@ -12,9 +12,10 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,
 
 vipro = LINETCR.LINE()
 #vipro.login(qr=True)
-vipro.login(token='EqKbm0i8wJmClFjXw1t8.tH/JL3RnwGLmjKM3AW/o2a.5oRvFLZLB8zp4YjZtv+p10jAB4+6GzZFGNO5fOmlrvs=')
+vipro.login(token='DwhCvLAmc6C2Ps6CTUoogfEkZwEqAEuqoY65WQNbtggPrzo03/GbqOPeF9mNBErp2GX0uH66v35I1XZbatRxYSfooHFex36VHH+B35dkPyfzcWGmIvOtXBd2Gatw5xfOsokDsKUeE+ZiJ3vF+GVlFQdB04t89/1O/w1cDnyilFU=
+')
 vipro.loginResult()
-print "zhabot-Login Success\n\n=====[Sukses Login]====="
+print "Fer Success\n\n=====[Sukses Login]====="
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -48,9 +49,6 @@ selfMessage ="""
 ╠➩〘Micadd @〙
 ╠➩〘Micdel @〙
 ╠➩〘Miclist〙
-╠═════════════════════════
-║             💠 By : zha 💠
-║    〽️ http://line.me/ti/p/~zz_zha 〽️
 ╚═════════════════════════
 """
 
@@ -68,10 +66,8 @@ botMessage ="""
 ╠➩〘Myname (Text)〙
 ╠➩〘@bye〙
 ╠➩〘Bot on/off〙
-╠═════════════════════════
-║             💠 By : zha 💠
-║    〽️ http://line.me/ti/p/~zz_zha 〽️
 ╚═════════════════════════
+
 """
 
 mediaMessage ="""
@@ -107,10 +103,8 @@ mediaMessage ="""
 ╠➩〘Id@en Text (Translate ID Ke En〙
 ╠➩〘Id@th Text (Translate ID Ke TH〙
 ╠➩〘En@id Text (Translate En Ke ID〙
-╠═════════════════════════
-║             💠 By : zha 💠
-║    〽️ http://line.me/ti/p/~zz_zha 〽️
 ╚═════════════════════════
+
 """
 
 groupMessage ="""
@@ -142,12 +136,10 @@ groupMessage ="""
 ╠➩〘Memlist〙
 ╠➩〘Getgroup image〙
 ╠➩〘Urlgroup Image〙
-╠═════════════════════════
-║             💠 By : zha 💠
-║    〽️ http://line.me/ti/p/~zz_zha 〽️
 ╚═════════════════════════
+
 """
-tjia="u4e1fa3977acd5a094c2649b76b0f8ed8"
+tjia="U8b2f8d4574b7a233ea783c85b24494fd"
 
 setMessage ="""
 ╔═════════════════════════
@@ -161,10 +153,8 @@ setMessage ="""
 ╠➩〘Contact on/off〙
 ╠➩〘Sticker on〙
 ╠➩〘Simisimi on/off〙
-╠═════════════════════════
-║             💠 By : zha 💠
-║    〽️ http://line.me/ti/p/~zz_zha 〽️
 ╚═════════════════════════
+
 """
 
 creatorMessage ="""
@@ -180,10 +170,8 @@ creatorMessage ="""
 ╠➩〘Tag on/off〙
 ╠➩〘Bot restart〙
 ╠➩〘Turn off〙
-╠═════════════════════════
-║             💠 By : zha 💠
-║    〽️ http://line.me/ti/p/~zz_zha 〽️
 ╚═════════════════════════
+
 """
 
 adminMessage ="""
@@ -221,9 +209,6 @@ adminMessage ="""
 ╠➩〘Respon2 on/off〙
 ╠➩〘Respon3 on/off〙
 ╠➩〘Responkick on/off〙
-╠═════════════════════════
-║             💠 By : zha 💠
-║    〽️ http://line.me/ti/p/~zz_zha 〽️
 ╚═════════════════════════
 """
 
@@ -242,9 +227,6 @@ helpMessage ="""
 ╠➩〘Speed〙
 ╠➩〘Speed test〙
 ╠➩〘Status〙
-╠═════════════════════════
-║             💠 By : zha 💠
-║    〽️ http://line.me/ti/p/~zz_zha 〽️
 ╚═════════════════════════
 """
 
@@ -252,8 +234,8 @@ helpMessage ="""
 KAC=[vipro]
 mid = vipro.getProfile().mid
 Bots=[mid]
-Creator=["u4e1fa3977acd5a094c2649b76b0f8ed8"]
-admin=["u4e1fa3977acd5a094c2649b76b0f8ed8"]
+Creator=["U8b2f8d4574b7a233ea783c85b24494fd"]
+admin=["U8b2f8d4574b7a233ea783c85b24494fd"]
 
 contact = vipro.getProfile()
 backup1 = vipro.getProfile()
@@ -286,7 +268,6 @@ wait = {
     'sticker':False,  
     'timeline':True,
     "Timeline":True,
-    "comment":"Bot Auto Like ©By : zha\nContact Me : 👉 http://line.me/ti/p/~zz_zha",    
     "commentOn":True,
     "commentBlack":{},
     "message":"Thx For Add Me (^_^)\nInvite Me To Your Group ヘ(^_^)ヘ",    
